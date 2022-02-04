@@ -1,0 +1,171 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+#Foto1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3%;
+    position:relative;
+}
+
+#foto1{
+    width:100%;
+    height:auto;
+    max-width:1000px;
+    border-radius:5px
+    
+}
+
+#grid1{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap:50px;
+    width:0;
+    position:absolute;
+    bottom:2%;    
+    padding-right:170px;
+    
+}
+
+.doi{
+    height:13px;
+    width:13px;
+    background-color:white;
+    border-radius:50%;
+    border:1px solid black;
+    display:inline-block;
+    
+}
+
+.doi:hover{
+    background-color:cyan;
+    border:1px solid white;
+}
+
+#center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#first{
+    
+    
+}
+#filtru{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5%;
+}
+
+.cautatablete {
+    font-family: Montserrat, sans-serif;
+}
+#tablete{
+    font-family: Montserrat, sans-serif;
+    padding-right:50px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:left;
+    font-size:15px;
+    font-weight:bold;
+    border:1px solid black;
+    
+}
+#grid2{
+    display:grid;
+    grid-template-areas: "h1 h2 h3"
+                                 "h4 h5 h6"
+                                    "h7 h8 h9";
+    grid-column-gap:70px;
+    grid-row-gap:100px;
+    padding-top:3%;
+    padding-bottom:5%;
+    text-align:center;
+}
+#unu{
+    grid-area:h1;
+}
+
+#doi{
+    grid-area:h2;
+}
+
+#trei{
+    grid-area:h3;
+}
+
+#patru{
+    grid-area:h4;
+   
+}
+
+#cinci{
+    grid-area:h5;
+    
+}
+
+#sase{
+    grid-area:h6;
+    
+}
+
+#sapte {
+    grid-area:h7;
+    
+}
+
+#opt {
+    grid-area:h8;
+   
+}
+
+#noua {
+    grid-area:h9;
+   
+}
+
+#center2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgTableta {
+   width:100%;
+   height:auto;
+   max-width:220px;
+}
+
+.text {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.buton a {
+    text-decoration: none;
+    color: white;
+}
+
+.buton {
+    padding: 10px 30px 10px 30px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+}
+.buton:hover{
+    background-color: rgb(41, 38, 38);
+}
+
+.spate {
+    border: 0.5px solid black;
+    max-width:500px;
+    padding:5%;
+}
+
+.spate:hover{
+    box-shadow:0 0 4px 4px rgb(36, 35, 35);
+}
