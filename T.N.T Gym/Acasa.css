@@ -1,0 +1,273 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+   
+    
+  
+}
+
+
+nav{
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+	line-height: 75px;
+	padding:0px 100px;
+	position:fixed;
+	z-index: 1;
+}
+nav .logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px; 
+}
+nav .logo p{
+	float: left;
+	color:#fff;
+	text-transform: uppercase;
+}
+nav ul{
+	float: right;
+    margin-top:-115px;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+    
+}
+nav ul li a{
+	color:black;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding:0px 32px;
+   
+}
+nav ul li a:hover{
+	background-color: rgb(236, 240, 0);
+}
+.active{
+
+    padding-top:27px;
+    padding-bottom:28px;
+}
+
+
+#tntlogo{
+
+    width:100px;
+    height:100px;
+}
+.foto1{
+    margin-top:7%;
+   height:50% ;
+   height: 600px;
+   
+    width:100%;
+    
+}
+
+h1{
+
+   
+    color:white;
+    text-align:center;
+    margin-top:-200px;
+  margin-right:280px;
+  
+     
+    
+}
+
+.but{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#buton{
+
+    margin-top:45px;
+    margin-right:310px;
+    padding:17px;
+    padding-right:40px;
+    padding-left:40px;
+     background-color: yellow;
+     border-radius:5px;
+     border:none;
+   
+}
+.buton{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+#buton:hover{
+ background-color:rgb(214, 214, 0);
+}
+h2{
+   padding-top:30px;
+    text-align:center;
+    margin-top:55px;
+    font-size: 45px;
+    padding-bottom:25px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    text-align:center;
+    font-size:25px;
+    padding-right:30px;
+    padding-left:30px;
+    padding:20px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.second{
+    background-color:rgb(228, 228, 0) ;
+    padding-bottom:85px;
+}
+#buton2{
+   margin-top:15px;
+    border:2px solid black;
+  margin-right:450px;
+  margin-left:450px;
+  background-color: black;
+  color:white;
+  
+}
+span{
+    color:red;
+    text-decoration: underline;
+}
+#third{
+    text-align:left;
+    padding-top:30px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left:100px;
+}
+
+.third{
+
+    background-color: black;
+    padding-bottom:120px;
+}
+#foto3{
+    float:right;
+    margin-top:-55px;
+
+    padding-bottom:20px;
+    padding-right:100px;
+    margin-right:80px;
+   width:550px;
+   height:590px;
+
+    
+}
+#text{
+    font-family: 'Open Sans', sans-serif;
+    padding-left:100px;
+    padding-top:40px;
+    padding-bottom:30px;
+    color:white;
+}
+.buton3{
+    margin-left:105px;
+    padding:17px;
+    padding-right:40px;
+    padding-left:40px;
+     background-color: yellow;
+     border-radius:5px;
+     border:none;
+   
+}
+#buton3{
+
+    color:black;
+    text-decoration: none;
+    font-size:30px;
+}
+
+.buton3:hover{
+    background-color:rgb(214, 214, 0);
+
+}
+
+footer{
+
+    display:inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: yellow;
+  
+}
+#foto4{
+
+
+    width:220px;
+    height:220px;
+    float:left;
+
+}
+
+.list2{
+
+    list-style-type: none;
+    padding-left:120px;
+    padding-right:120px;
+    padding-top:35px;
+}
+
+.list2 li a{
+
+    color:black;
+    text-decoration: none;
+    font-weight:bold;
+    line-height:1.5;
+}
+.nav{
+
+    font-size:2vw;
+    
+}
+.list2 li a:hover{
+    text-decoration: underline;
+}
+.grid{
+
+    display:inline-grid;
+    grid-template-columns: auto auto auto;
+}
+#list2{
+
+    padding-left:80px;
+    padding-right:60px;
+}
+#list3{
+  float:right;
+    padding-left:110px;
+    padding-right:100px;
+}
+.finish{
+    background-color: yellow;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+@media only screen and (min-width:1450px) {
+
+.foto1{
+margin-top:91px;
+}
+.second{
+    margin-top:-20px;
+}
+}
+
+    
