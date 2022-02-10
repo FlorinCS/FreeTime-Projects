@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Josefin+Sans&family=Karla&family=Kaushan+Script&family=Lexend+Deca&family=Libre+Franklin:wght@300;800;900&family=Poppins:ital,wght@0,300;0,400;1,500&family=Roboto&display=swap" rel="stylesheet">
+    <title>Trivia Game</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color:rgb(18, 156, 156);
+            text-align:center;
+            font-family: 'Roboto', sans-serif;
+        }
+        h1{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-align:center; 
+        }
+        button{
+            border: none;
+            padding:10px 25px 10px 25px;
+            background-color: red;
+            border-radius: 8px;
+        }
+        button:hover{
+            background-color: rgb(255, 46, 46);
+        }
+        button a{
+            text-decoration: none;
+            color:white;
+            font-weight:bold;
+        }
+        #antwort{
+             border:none;
+             border-radius: 10px;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:10px;
+            width:100%;
+            max-width:350px;
+        }
+
+    </style>
+     
+       <h1>Trivia Game API</h1><br/><br/><br/>
+
+        <h2 id="tabel"><span id="nr">0</span>/10</h2></br>
+        <h2 id="frage"></h2><br/><br/>
+        <div style="display:flex;justify-content:center;align-items:center; padding-bottom:20px;"><br/>
+        <input id="antwort" type="search" placeholder="Antwort" /><br/>
+        </div>
+        <div style="display:flex;justify-content:center;align-items:center;"><br/>
+          
+        <button id="button" onclick="but()"><a href="#">NEXT</a></button>
+        </div>
+
+        <h2>Score</h2>
+        <h3 id="score">0</h3>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
